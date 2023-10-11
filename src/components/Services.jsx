@@ -1,47 +1,19 @@
+import Title from "./Title";
+import { services } from "./data";
 const Services = () => {
   return (
-    <section classname='section services' id='services'>
-      <div classname='section-title'>
-        <h2>
-          our <span>services</span>
-        </h2>
-      </div>
-      <div classname='section-center services-center'>
-        <article classname='service'>
-          <span classname='service-icon'>
-            <i classname='fas fa-wallet fa-fw'></i>
+    <section className='section services' id='services'>
+      <Title title='our' subTitle='services'/>
+     
+      <div className='section-center services-center'>
+        <article className='service' key={id}>
+          <span className='service-icon'>
+            <i className={icon}></i>
           </span>
-          <div classname='service-info'>
-            <h4 classname='service-title'>saving money</h4>
-            <p classname='service-text'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Asperiores, officia.
-            </p>
-          </div>
-        </article>
-
-        <article classname='service'>
-          <span classname='service-icon'>
-            <i classname='fas fa-tree fa-fw'></i>
-          </span>
-          <div classname='service-info'>
-            <h4 classname='service-title'>endless hiking</h4>
-            <p classname='service-text'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Asperiores, officia.
-            </p>
-          </div>
-        </article>
-
-        <article classname='service'>
-          <span classname='service-icon'>
-            <i classname='fas fa-socks fa-fw'></i>
-          </span>
-          <div classname='service-info'>
-            <h4 classname='service-title'>amazing comfort</h4>
-            <p classname='service-text'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Asperiores, officia.
+          <div className='service-info'>
+            <h4 className='service-title'>{title}</h4>
+            <p className='service-text'>
+              {text}
             </p>
           </div>
         </article>
