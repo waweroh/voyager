@@ -1,21 +1,20 @@
+import aboutImg from '../images/about.jpeg'
+import Title from './Title';
 const About = () => {
   return (
-    <section classname='section' id='about'>
-      <div classname='section-title'>
-        <h2>
-          about <span>us</span>
-        </h2>
-      </div>
+    <section className='section' id='about'>
+      <Title title='about' subTitle='us' />
 
-      <div classname='section-center about-center'>
-        <div classname='about-img'>
+
+      <div className='section-center about-center'>
+        <div className='about-img'>
           <img
-            src='./images/about.jpeg'
-            classname='about-photo'
+            src={aboutImg}
+            className='about-photo'
             alt='awesome beach'
           />
         </div>
-        <article classname='about-info'>
+        <article className='about-info'>
           <h3>explore the difference</h3>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
@@ -27,7 +26,7 @@ const About = () => {
             quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
             unde dolor?
           </p>
-          <a href='#' classname='btn'>
+          <a href='#' className='btn'>
             read more
           </a>
         </article>

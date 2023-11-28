@@ -1,58 +1,58 @@
 const Footer = () => {
   return (
-    <footer classname='section footer'>
-      <ul classname='footer-links'>
+    <footer className='section footer'>
+      <ul className='footer-links'>
         <li>
-          <a href='#home' classname='footer-link'>
+          <a href='#home' className='footer-link'>
             home
           </a>
         </li>
         <li>
-          <a href='#about' classname='footer-link'>
+          <a href='#about' className='footer-link'>
             about
           </a>
         </li>
         <li>
-          <a href='#services' classname='footer-link'>
+          <a href='#services' className='footer-link'>
             services
           </a>
         </li>
         <li>
-          <a href='#featured' classname='footer-link'>
+          <a href='#featured' className='footer-link'>
             featured
           </a>
         </li>
       </ul>
-      <ul classname='footer-icons'>
+      <ul className='footer-icons'>
         <li>
           <a
             href='https://www.twitter.com'
             target='_blank'
-            classname='footer-icon'
+            className='footer-icon'
           >
-            <i classname='fab fa-facebook'></i>
+            <i className='fab fa-facebook'></i>
           </a>
         </li>
         <li>
           <a
             href='https://www.twitter.com'
             target='_blank'
-            classname='footer-icon'
+            className='footer-icon'
           >
-            <i classname='fab fa-twitter'></i>
+            <i className='fab fa-twitter'></i>
           </a>
         </li>
         <li>
           <a
             href='https://www.twitter.com'
             target='_blank'
-            classname='footer-icon'
+            className='footer-icon'
           >
-            <i classname='fab fa-squarespace'></i>
+            <i className='fab fa-squarespace'></i>
           </a>
         </li>
       </ul>
-      <p classname='copyright'>
+      <p className='copyright'>
         copyright &copy; Backroads travel tours company
         <span id='date'></span> all rights reserved
       </p>
